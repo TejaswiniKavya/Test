@@ -1,0 +1,5 @@
+package com.teju.SpringCoreAnnotations;
+
+public class SpellChecker {
+
+}

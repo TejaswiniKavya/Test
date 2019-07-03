@@ -1,0 +1,12 @@
+package com.abc.demo;
+
+public class Bike implements Vehicle{
+
+	public Bike() {
+		// TODO Auto-generated constructor stub
+	}
+  public void drive()
+  {
+	  System.out.println("ride");
+  }
+}

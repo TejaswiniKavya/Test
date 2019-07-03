@@ -1,0 +1,12 @@
+package com.abc.practice;
+
+public class SnapDragon implements MobileProceesor{
+
+	public void process() {
+		
+		
+		System.out.println("WORLD BEST CPU");
+
+	}
+
+}

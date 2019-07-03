@@ -1,0 +1,15 @@
+package com.teju.SpringCoreOveride;
+
+import org.springframework.context.ApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	ApplicationContext context= new ApplicationContext("Beans.xml");
+    }
+}

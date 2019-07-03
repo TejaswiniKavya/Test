@@ -1,0 +1,21 @@
+INDEX VERSION 1.131
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3478895974.index
+/firstweb/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3365109268.index
+/SpringMvcJava2/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3491341207.index
+/App1/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/585689527.index
+/SpringMVCDemo/src/main/java
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2250999662.index
+/demomvc/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/294989965.index
+/practice/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/446431967.index
+/demo/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2355036348.index
+/spring-mvc-telusko1/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1261277164.index
+/App/src/main/resources
+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3679975688.index
+/firstweb/src/main/resources

@@ -1,0 +1,8 @@
+package com.teju.SpringCoreJavaAnnotations;
+
+public class TextEditor {
+	
+	private SpellChecker spellChecker();
+	
+
+}

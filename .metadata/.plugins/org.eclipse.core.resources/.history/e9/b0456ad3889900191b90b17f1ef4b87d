@@ -1,0 +1,21 @@
+package com.abc.practice;
+
+public class Samsung {
+	
+	MobileProceesor cpu;
+	
+	public MobileProceesor getCpu() {
+		return cpu;
+	}
+
+	public void setCpu(MobileProceesor cpu) {
+		this.cpu = cpu;
+	}
+
+	public void config()
+	{
+		System.out.println("octa core,4gb, 4px");
+		cpu.process();
+	}
+
+}

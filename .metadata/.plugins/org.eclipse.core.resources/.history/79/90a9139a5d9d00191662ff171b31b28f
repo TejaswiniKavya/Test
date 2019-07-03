@@ -1,0 +1,26 @@
+package com.teju.SpringCoreAnnotations;
+
+public class Profile {
+	
+	private Student student;
+	
+	
+	
+	public Profile()
+	{
+		System.ut.println("Inside profile constructor");
+	}
+	
+	public void printAge()
+	{
+		System.out.println("age is ="+student.getAge());
+		
+	}
+
+	
+	public void printName()
+	{
+		System.out.println("Name is ="+student.getName());
+		
+	}
+}

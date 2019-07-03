@@ -1,0 +1,31 @@
+package com.teju.SpringCoreAnnotations;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        ApplicationContext context= new ClassPathXmlApplicationContext("Beans.xml");
+        //Student s=(Student)context.getBean("student");
+       // System.out.println("Age:="+s.getAge());
+       // System.out.println("Name:="+s.getName());
+        
+        
+        Profile p=(Profile)context.getBean("profile");
+        p.printAge();
+        p.printName();
+        
+        
+        
+        
+        TextEditor te = (TextEditor) context.getBean("textEditor");
+        te.spellCheck();
+        
+    }
+}

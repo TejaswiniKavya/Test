@@ -1,0 +1,9 @@
+package com.firstspringmvc;
+
+public class AddController1 {
+
+	public AddController1() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

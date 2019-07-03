@@ -1,0 +1,50 @@
+package com.first;
+
+import org.springframework.stereotype.Controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.second.AddService;
+
+@Controller
+@RestController
+public class AddController1 {
+	
+	//@RequestMapping("/add")
+	//public String add()
+	//{
+	//	return "display.jsp";
+	//}
+	
+	
+	
+	@RequestMapping("/add")
+	public ModelAndView adding(@RequestParam("t1") int i, @RequestParam("t2") int j, HttpServletRequest request, HttpServletResponse response)
+	{
+		System.out.println("I am in Controller");
+		//int i=Integer.parseInt(request.getParameter("t1"));instead of this we can access a parameter in argument
+		//int j=Integer.parseInt(request.getParameter("t2"));
+		
+		//*int k=i+j;
+		//System.out.println(k);
+		
+		AddService as =new AddService(); // operation should be performed in service class
+		int k=as.add(i, j);
+		System.out.println("k="+k);
+		
+		ModelAndView mv=new ModelAndView(); //ModelAndView is a class	
+		mv.setViewName("display"); //view  // here we sould not give any extension( like .jsp) bcoz in future we may use different view like themeleaf etc so we need to write code in appconfig class
+		mv.addObject("result",k); //data  
+		
+		
+		return mv;// passing both view and data
+	}
+
+	
+}

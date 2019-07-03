@@ -1,0 +1,13 @@
+INDEX VERSION 1.4+/home/local/DOMAIN/tejaswini.s/practice/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+530089327.index
+585689527.index
+2742334892.index
+3365109268.index
+2863693797.index
+2820549366.index
+2602237266.index
+1790628813.index
+1168513419.index
+940606349.index
+2355036348.index
+3679975688.index

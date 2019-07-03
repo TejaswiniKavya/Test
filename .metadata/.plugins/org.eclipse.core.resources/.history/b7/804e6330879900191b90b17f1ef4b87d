@@ -1,0 +1,11 @@
+package com.abc.practice;
+
+public class Samsung {
+	
+	
+	public void config()
+	{
+		System.out.println("octa core,4gb, 4px");
+	}
+
+}

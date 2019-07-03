@@ -1,0 +1,13 @@
+package com.abc.practice;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MediaTek implements MobileProceesor {
+
+	public void process() {
+		System.out.println("2nd best cpu");
+		
+	}
+
+}

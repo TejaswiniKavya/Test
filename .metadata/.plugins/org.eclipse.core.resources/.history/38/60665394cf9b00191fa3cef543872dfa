@@ -1,0 +1,16 @@
+package com.firstspringmvc;
+
+@Controller
+public class AddController {
+
+	public AddController() {
+		
+	}
+	
+	@RequestMapping("/add")
+	public void add()
+	{
+		System.out.println("I am here");
+	}
+
+}

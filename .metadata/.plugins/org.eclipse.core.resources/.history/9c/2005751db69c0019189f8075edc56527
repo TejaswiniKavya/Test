@@ -1,0 +1,13 @@
+package com.teju.com.SpringCoreCollection;
+
+import java.util.*;
+
+public class JavaCollection {
+	
+	List addressList;
+	Set AddressMAp;
+	Map addressMAp;
+	Properties addressprop;
+	
+
+}

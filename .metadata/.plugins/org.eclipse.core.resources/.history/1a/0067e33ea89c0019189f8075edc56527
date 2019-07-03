@@ -1,0 +1,9 @@
+package com.teju.SpringCoreOveride;
+
+public class HelloWorld {
+	
+	private String message1;
+	private String message2;
+	
+
+}

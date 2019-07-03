@@ -1,0 +1,52 @@
+package com.teju.com.SpringCoreCollection;
+
+import java.util.*;
+
+public class JavaCollection {
+	
+	List addressList;
+	Set addressSet;
+	Map addressMap;
+	Properties addressprop;
+	public List getAddressList() {
+		System.out.println("Inside List:"+addressList);
+		return addressList;
+	}
+	public void setAddressList(List addressList) {
+		this.addressList = addressList;
+	}
+	
+	
+	
+	public Set getAddressSet() {
+		System.out.println("Inside Set:"+addressSet);
+		return addressSet;
+	}
+	public void setAddressSet(Set addressSet) {
+		this.addressSet = addressSet;
+	}
+	
+	
+	
+	public Map getAddressMap() {
+		System.out.println("Inside Map:"+addressMap);
+		return addressMap;
+	}
+	public void setAddressMap(Map addressMap) {
+		this.addressMap = addressMap;
+	}
+	
+	
+	
+	public Properties getAddressprop() {
+		return addressprop;
+	}
+	public void setAddressprop(Properties addressprop) {
+		this.addressprop = addressprop;
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package com.teju.SpringCoreDependency;
+
+public class TextEditor {
+	
+	private SpellChecker spellchecker;
+	
+	public TextEditor()
+	{
+		SpellChecker=new SpellChecker();
+	}
+	
+
+}

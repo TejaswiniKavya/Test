@@ -1,0 +1,14 @@
+package com.firstspringmvc;
+
+
+@Controller
+public class AddController1 {
+
+	public AddController1() {}
+	
+	public void add()
+	{
+		
+	}
+
+}

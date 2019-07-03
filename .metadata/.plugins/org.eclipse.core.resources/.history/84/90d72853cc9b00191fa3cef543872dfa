@@ -1,0 +1,16 @@
+package com.firstspringmvc;
+
+
+public class AddController {
+
+	public AddController() {
+		
+	}
+	
+	
+	public void add()
+	{
+		System.out.println("I am here");
+	}
+
+}

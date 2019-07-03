@@ -1,0 +1,16 @@
+package com.first;
+
+@Controller
+public class AddController {
+
+	public AddController() {
+		// TODO Auto-generated constructor stub
+	}
+		@RequestMapping("/add")
+		Public void add()
+		{
+			System.out.println("I am adding here");
+		}
+	
+
+}

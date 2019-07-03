@@ -1,0 +1,15 @@
+package com.first;
+
+public class AddController {
+
+	public AddController() {
+		// TODO Auto-generated constructor stub
+	}
+		
+		Public void add()
+		{
+			System.out.println("I am adding here");
+		}
+	
+
+}

@@ -1,0 +1,13 @@
+package com.teju.CoreSpringAutoWire;
+
+public class TextEditor {
+
+	public TextEditor() {
+		private SpellChecker spellChecker;
+		private String name;
+		
+		
+		
+	}
+
+}

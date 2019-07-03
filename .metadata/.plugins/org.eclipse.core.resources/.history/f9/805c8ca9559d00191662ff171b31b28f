@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   
+   
+   <!--   Normal way -->
+
+   <!-- Definition for textEditor bean -->  
+ <!--   <bean id = "textEditor" class = "com.teju.CoreSpringAutoWire.TextEditor">
+      <property name = "spellChecker" ref = "spellChecker" />
+      <property name = "name" value = "Generic Text Editor" />      
+   </bean> -->
+
+   <!-- Definition for spellChecker bean -->
+  <!--  <bean id = "spellChecker" class = "com.tutorialspoint.SpellChecker"></bean>   -->
+  
+  
+  
+  <!--  By using AutoWire byName -->
+  
+ <!--   <bean id = "textEditor" class = "com.teju.CoreSpringAutoWire.TextEditor" autowire = "byName">--><!-- Matches name of the attribute -->
+      <!-- <property name = "name" value = "Generic Text Editor" />-->
+   <!-- </bean>-->
+
+   <!-- Definition for spellChecker bean -->
+   <!-- <bean id = "spellChecker" class = "com.teju.CoreSpringAutoWire.SpellChecker"></bean>-->
+   
+   
+   
+   <!--  By using AutoWire byType -->
+  
+ <!--   <bean id = "textEditor" class = "com.teju.CoreSpringAutoWire.TextEditor" autowire = "byType">--><!-- Matches type(datatype) of the attribute -->
+     <!--   <property name = "name" value = "Generic Text Editor" />-->
+    <!-- </bean>-->
+
+   <!-- Definition for spellChecker bean -->
+    <!-- <bean id = "spellChecker" class = "com.teju.CoreSpringAutoWire.SpellChecker"></bean>-->
+   
+   
+   
+   <!--  By using AutoWire constructor (SAme as byType but applies to consructor args datatype) -->
+  
+  <bean id = "textEditor" class = "com.teju.CoreSpringAutoWire.TextEditor" autowire = "constructor"><!-- Matches type(datatype) of the constructor -->
+     <constructor-arg value = "Generic Text Editor"/>
+   </bean>
+
+   <!-- Definition for spellChecker bean -->
+   <bean id = "spellChecker" class = "com.teju.CoreSpringAutoWire.SpellChecker"></bean>
+
+</beans>

@@ -1,0 +1,9 @@
+package com.teju.CoreSpringAutoWire;
+
+public class SpellChecker {
+
+	public SpellChecker() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

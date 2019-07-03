@@ -1,0 +1,14 @@
+package com.abc.practice;
+
+import org.springframework.context.annotation.Configuration;
+
+public class AppConfig {
+	
+	@Configuration
+	
+	Public Samsung getPhone()
+	{
+		return new Samsung();
+	}
+
+}

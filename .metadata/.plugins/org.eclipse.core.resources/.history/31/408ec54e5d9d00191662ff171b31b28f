@@ -1,0 +1,21 @@
+package com.teju.SpringCoreAnnotations;
+
+public class Profile {
+	
+	private Student student;
+	
+	
+	
+	public void printAge()
+	{
+		System.out.println("age is ="+student.getAge());
+		
+	}
+
+	
+	public void printName()
+	{
+		System.out.println("age is ="+student.getNage());
+		
+	}
+}

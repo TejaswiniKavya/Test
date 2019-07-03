@@ -1,0 +1,15 @@
+package com.abc.demo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+     //  Car obj=new Car();
+    	Vehicle v=new Car();
+    	v.drive();
+    }
+}

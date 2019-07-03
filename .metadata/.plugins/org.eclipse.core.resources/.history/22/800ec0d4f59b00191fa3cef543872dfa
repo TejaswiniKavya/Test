@@ -1,0 +1,6 @@
+package com.second;  // service class has to be created in different package
+
+public class Service {
+	
+	
+}
