@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">root</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/MyDB</property><!--  MyDb is the name of Db in mysql workbench -->
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.default_schema">MyDB</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <!--      <property name="hbm2ddl.auto">create</property>  if I use create, everytime it will crete new table in database and stores tha data --> 
+        <property name="hbm2ddl.auto">create</property><!-- update creates the table once and insert the data everytime  -->
+        <property name="show_sql">true</property> <!--  which shows the sql queries in console only instead of checking in workbench  -->
+    </session-factory>
+</hibernate-configuration>
