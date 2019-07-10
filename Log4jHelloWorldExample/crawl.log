@@ -1,0 +1,4 @@
+INFO	2019-07-10 18:20:21,702	0	com.teju.Log4jHelloWorldExample.App	[main]	Going to create HelloWorld Object
+INFO	2019-07-10 18:20:21,703	1	com.teju.Log4jHelloWorldExample.App	[main]	Exiting the programme
+INFO	2019-07-10 18:21:25,801	0	com.teju.Log4jHelloWorldExample.App	[main]	Going to create HelloWorld Object
+INFO	2019-07-10 18:21:25,801	0	com.teju.Log4jHelloWorldExample.App	[main]	Exiting the programme
